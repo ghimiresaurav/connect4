@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Connect4</title>
+    <link rel="stylesheet" href="./assets/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="wrapper">
+      <div id="game-board">
+        <!-- row 0 -->
+        <div id="cell-00" class="cells"></div>
+        <div id="cell-01" class="cells"></div>
+        <div id="cell-02" class="cells"></div>
+        <div id="cell-03" class="cells"></div>
+        <div id="cell-04" class="cells"></div>
+        <div id="cell-05" class="cells"></div>
+        <div id="cell-06" class="cells"></div>
+
+        <!-- row 1 -->
+        <div id="cell-10" class="cells"></div>
+        <div id="cell-11" class="cells"></div>
+        <div id="cell-12" class="cells"></div>
+        <div id="cell-13" class="cells"></div>
+        <div id="cell-14" class="cells"></div>
+        <div id="cell-15" class="cells"></div>
+        <div id="cell-16" class="cells"></div>
+
+        <!-- row 2 -->
+        <div id="cell-20" class="cells"></div>
+        <div id="cell-21" class="cells"></div>
+        <div id="cell-22" class="cells"></div>
+        <div id="cell-23" class="cells"></div>
+        <div id="cell-24" class="cells"></div>
+        <div id="cell-25" class="cells"></div>
+        <div id="cell-26" class="cells"></div>
+
+        <!-- row 3 -->
+        <div id="cell-30" class="cells"></div>
+        <div id="cell-31" class="cells"></div>
+        <div id="cell-32" class="cells"></div>
+        <div id="cell-33" class="cells"></div>
+        <div id="cell-34" class="cells"></div>
+        <div id="cell-35" class="cells"></div>
+        <div id="cell-36" class="cells"></div>
+
+        <!-- row 4 -->
+        <div id="cell-40" class="cells"></div>
+        <div id="cell-41" class="cells"></div>
+        <div id="cell-42" class="cells"></div>
+        <div id="cell-43" class="cells"></div>
+        <div id="cell-44" class="cells"></div>
+        <div id="cell-45" class="cells"></div>
+        <div id="cell-46" class="cells"></div>
+
+        <!-- row 5 -->
+        <div id="cell-50" class="cells"></div>
+        <div id="cell-51" class="cells"></div>
+        <div id="cell-52" class="cells"></div>
+        <div id="cell-53" class="cells"></div>
+        <div id="cell-54" class="cells"></div>
+        <div id="cell-55" class="cells"></div>
+        <div id="cell-56" class="cells"></div>
+      </div>
+    </div>
+    <div id="game-over-card">
+      <h1>GAME OVER</h1>
+      <h2></h2>
+      <button onclick="location.reload()">Play Again</button>
+    </div>
+    <script type="module" src="./js/main.js"></script>
+  </body>
+</html>
