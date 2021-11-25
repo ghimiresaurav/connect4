@@ -39,14 +39,7 @@ const play = (column) => {
         document.getElementById("game-over-card").style.opacity = 1;
         document.querySelector("h2").innerText =
           gameStatus.winner == "red" ? `Player1 won.` : `Player2 won.`;
-        // setTimeout(
-        //   alert(
-        //
-        //     1000
-        //   )
-        // );
-
-        console.log(gameStatus.winningCheckers);
+        navigator.vibrate([1000, 200, 1000]);
       }
     }
   }
